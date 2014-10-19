@@ -109,6 +109,6 @@ for (var frame = 0; frame < currentRoundShotSaver.length; ++frame) { // iteratin
 		}
 	}
 }
-
+console.log("The output score = " + scoreForRound);
 // The final score is therefore equal to scoreForRound
 
