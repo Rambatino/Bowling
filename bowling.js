@@ -37,7 +37,7 @@ for (var frame = 0; frame < numberOfFrames; ++frame) {
 			var thirdBowl = calculateScore(maxPins);
 			currentFrameScore.push(thirdBowl);
 		}
-	} else if(frame === numberOfFrames) { // it is the last round and therefore the user gets another two shots
+	} else if(frame === numberOfFrames - 1) { // it is the last round and therefore the user gets another two shots
 		
 		var secondBowl = calculateScore(maxPins);
 		currentFrameScore.push(secondBowl);
